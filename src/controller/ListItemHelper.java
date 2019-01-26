@@ -14,7 +14,7 @@ public class ListItemHelper {
 	static	EntityManagerFactory emfactory	=	
 			Persistence.createEntityManagerFactory("ConsoleShoppingList");
 	
-	public void insertItem(ListItem li) {
+public void insertItem(ListItem li) {
 		
 		EntityManager em = emfactory.createEntityManager();
 		em.getTransaction().begin();
